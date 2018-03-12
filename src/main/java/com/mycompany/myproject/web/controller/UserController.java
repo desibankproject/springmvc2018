@@ -17,6 +17,12 @@ import org.springframework.web.servlet.ModelAndView;
 import com.mycompany.myproject.service.UserService;
 import com.mycompany.myproject.service.dto.UserDto;
 
+/**
+ * 
+ * @author nagendra
+ * This the main class which is manging all the users...........
+ *
+ */
 @Controller
 @Scope("request")
 public class UserController {
